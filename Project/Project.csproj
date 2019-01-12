@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7020BC1D-D4C7-49E4-8180-7E2E1C9FB16E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bank.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grass.cs" />
+    <Compile Include="Gym.cs" />
+    <Compile Include="House.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Mart.cs" />
+    <Compile Include="Pokémon.cs" />
+    <Compile Include="PokémonCenter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sign.cs" />
+    <Compile Include="Trainer.cs" />
+    <Compile Include="Tree.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenIIIHoennPokeMart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downMotion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downMotion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downStationary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upSationary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upMotion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upMotion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftMotion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftStationary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftMotion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightStationary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightMotion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightMotion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\martBackround.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\martMat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\martBars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fightBackround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boatImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachuImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainerLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainerRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainerUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainerDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachuBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokéball.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokémonCenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokémonCenterBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthPotion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geodudeBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geodudeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squeedleBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squeedleImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pidgeottoBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pidgeottoImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caterpieBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caterpieImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bankImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymFiveImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymSixImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymOneImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymThreeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymTwoImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gymFourImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waterImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sudowoodoMapImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sudowoodoBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sudowoodoImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greatBallImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\houseSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\houseWide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinarakIamge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoothootImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinarakBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoothootBack.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

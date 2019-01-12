@@ -1,0 +1,33 @@
+C:\Users\John\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.Form1.resources
+C:\Users\John\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\John\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\John\AppData\Local\Temporary Projects\Project\bin\Debug\Project.exe
+C:\Users\John\AppData\Local\Temporary Projects\Project\bin\Debug\Project.pdb
+C:\Users\John\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.exe
+C:\Users\John\AppData\Local\Temporary Projects\Project\obj\x86\Debug\Project.pdb
+C:\Users\John\Desktop\Project\Project\obj\x86\Debug\Project.exe
+C:\Users\John\Desktop\Project\Project\obj\x86\Debug\Project.pdb
+C:\Users\John\Desktop\Project\Project\bin\Debug\Project.exe
+C:\Users\John\Desktop\Project\Project\bin\Debug\Project.pdb
+C:\Users\John\Desktop\Project\Project\obj\x86\Debug\Project.Form1.resources
+C:\Users\John\Desktop\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\John\Desktop\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\John\Desktop\Project\Project\obj\x86\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\project things\Project\Project\obj\x86\Debug\Project.exe
+C:\Users\John\Desktop\project things\Project\Project\obj\x86\Debug\Project.pdb
+C:\Users\John\Desktop\project things\Project\Project\obj\x86\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\project things\Project\Project\obj\x86\Debug\Project.Form1.resources
+C:\Users\John\Desktop\project things\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\John\Desktop\project things\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\John\Desktop\project things\Project\Project\bin\Debug\Project.exe
+C:\Users\John\Desktop\project things\Project\Project\bin\Debug\Project.pdb
+C:\Users\John\Desktop\PokemonProject\Project\Project\bin\Debug\Project.exe.config
+C:\Users\John\Desktop\PokemonProject\Project\Project\bin\Debug\Project.exe
+C:\Users\John\Desktop\PokemonProject\Project\Project\bin\Debug\Project.pdb
+C:\Users\John\Desktop\PokemonProject\Project\Project\obj\x86\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\PokemonProject\Project\Project\obj\x86\Debug\Project.Form1.resources
+C:\Users\John\Desktop\PokemonProject\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\John\Desktop\PokemonProject\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.cache
+C:\Users\John\Desktop\PokemonProject\Project\Project\obj\x86\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\PokemonProject\Project\Project\obj\x86\Debug\Project.exe
+C:\Users\John\Desktop\PokemonProject\Project\Project\obj\x86\Debug\Project.pdb
